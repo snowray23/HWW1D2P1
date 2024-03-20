@@ -12,7 +12,7 @@ if place == "cave":
     action = input("light a torch? or proceed in the dark?")
     if action == "light a torch":
         print("you are afraid of the dark")
-elif if action == "proceed in the dark":
+elif action == "proceed in the dark":
     print("you are one brave man")
 
 attendees = input("Enter number of attendees:")
