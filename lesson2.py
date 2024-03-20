@@ -4,7 +4,7 @@ if place == "forest":
     action = input("climb a tree or cross a river?")
     if action == "climb a tree":
         print("you found a bird's nest")
-    if action == "cross a river":
+    elif action == "cross a river":
         print("you found a boat")
 else:
     print("you found a hidden treasure")
@@ -12,7 +12,7 @@ if place == "cave":
     action = input("light a torch? or proceed in the dark?")
     if action == "light a torch":
         print("you are afraid of the dark")
-else:
+elif if action == "proceed in the dark":
     print("you are one brave man")
 
 attendees = input("Enter number of attendees:")
